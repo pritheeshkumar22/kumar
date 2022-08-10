@@ -3,7 +3,7 @@ import sqlite3
 app=Flask(__name__)
 @app.get('/')
 def hi():
-    return "good night"
+    return
 @app.post('/h')
 def hi1():
     con = sqlite3.Connection("C:/Users/trc/Desktop/night/reference/Scripts/appie.db")
